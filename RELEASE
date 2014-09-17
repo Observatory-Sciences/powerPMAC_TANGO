@@ -1,0 +1,18 @@
+PowerPMAC TANGO Device Server Release Notes
+===========================================
+
+Author: Andrew Wilson (OSL)
+Date: September 17th 2014
+Release Type: Major
+Release Version Number: 1.0
+GitHub repository: https://github.com/Observatory-Sciences/powerPMAC_TANGO
+
+About 1.0
+=========
+This is the initial release of software which implements monitoring and control of the Delta Tau
+Power PMAC within the TANGO control system (tango-controls.org), using the functionality of the 
+Observatory Sciences Power PMAC SSH Communications Library (http://www.observatorysciences.co.uk/).
+
+Documentation
+=============
+Documentation and installation instructions can be found in docs/PowerPMAC_TANGOSoftwareManual.pdf
