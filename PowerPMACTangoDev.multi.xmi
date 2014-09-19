@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pogoDsl:PogoSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:pogoDsl="http://www.esrf.fr/tango/pogo/PogoDsl">
+  <multiClasses name="PowerPMACTangoDev" sourcePath="/home/aya/powerPMAC/untitled folder 3/PowerPMACTangoDev" description="Sending command and reading data from Power PMAC." filestogenerate="XMI   file,Code files,Makefile">
+    <classes classname="PowerPMACAxes" sourcePath="/home/aya/powerPMAC/untitled folder 3/PowerPMACTangoDev/PowerPMACAxes">
+      <inheritances classname="Device_Impl" sourcePath=""/>
+    </classes>
+    <classes classname="PowerPMACBox" sourcePath="/home/aya/powerPMAC/untitled folder 3/PowerPMACTangoDev/PowerPMACBox">
+      <inheritances classname="Device_Impl" sourcePath=""/>
+    </classes>
+    <preferences makefileHome="/usr/local/tango/share/pogo/preferences"/>
+  </multiClasses>
+</pogoDsl:PogoSystem>
