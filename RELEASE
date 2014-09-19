@@ -11,7 +11,7 @@ About 1.0
 =========
 This is the initial release of software which implements monitoring and control of the Delta Tau
 Power PMAC within the TANGO control system (tango-controls.org), using the functionality of the 
-Observatory Sciences Power PMAC SSH Communications Library (http://www.observatorysciences.co.uk/).
+Observatory Sciences Power PMAC SSH Communications Library (http://observatorysciences.co.uk/deltatau_downloads.php).
 
 Documentation
 =============
