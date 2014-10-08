@@ -181,22 +181,22 @@ POWERPMACAXES_INCL = \
 		$(POWERPMACAXES_HOME)/PowerPMACAxes.h \
 		$(POWERPMACAXES_HOME)/PowerPMACAxesClass.h
 $(OBJDIR)/PowerPMACAxes.o: $(POWERPMACAXES_HOME)/PowerPMACAxes.cpp $(POWERPMACAXES_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxes.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxes.o
 $(OBJDIR)/PowerPMACAxesClass.o: $(POWERPMACAXES_HOME)/PowerPMACAxesClass.cpp $(POWERPMACAXES_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxesClass.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxesClass.o
 $(OBJDIR)/PowerPMACAxesStateMachine.o: $(POWERPMACAXES_HOME)/PowerPMACAxesStateMachine.cpp $(POWERPMACAXES_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxesStateMachine.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACAxesStateMachine.o
 
 #------------  Object files dependancies for PowerPMACBox class  ------------
 POWERPMACBOX_INCL = \
 		$(POWERPMACBOX_HOME)/PowerPMACBox.h \
 		$(POWERPMACBOX_HOME)/PowerPMACBoxClass.h
 $(OBJDIR)/PowerPMACBox.o: $(POWERPMACBOX_HOME)/PowerPMACBox.cpp $(POWERPMACBOX_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACBox.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACBox.o
 $(OBJDIR)/PowerPMACBoxClass.o: $(POWERPMACBOX_HOME)/PowerPMACBoxClass.cpp $(POWERPMACBOX_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACBoxClass.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACBoxClass.o
 $(OBJDIR)/PowerPMACBoxStateMachine.o: $(POWERPMACBOX_HOME)/PowerPMACBoxStateMachine.cpp $(POWERPMACBOX_INCL)
-	$(CC) $(CFLAGS) -c $< -o $(OBJDIR)/PowerPMACBoxStateMachine.o
+	$(CXX) $(CXXFLAGS) -c $< -o $(OBJDIR)/PowerPMACBoxStateMachine.o
 
 
 #------------  Object files dependancies for additional files  ------------
